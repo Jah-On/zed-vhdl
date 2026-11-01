@@ -1,0 +1,5 @@
+{
+  "name": "entity",
+  "content": "entity foo is (\n    port (\n        clk in std_integer;\n        dout out std_integer\n    )\n) is (\n    function foo(foo in integer) return integer is begin\n        return foo;\n    end function;\n)\nend entity;\n",
+  "language": "vhdl"
+}
