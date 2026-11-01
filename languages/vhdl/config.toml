@@ -1,15 +1,5 @@
 name = "VHDL"
 grammar = "vhdl"
-path_suffixes = ["vhd", "vhdl"]
-line_comments = ["--"]
-autoclose_before = ";:,=}])&>"
-brackets = [
-    { start = "(", end = ")", close = true, newline = true },
-    { start = "[", end = "]", close = true, newline = true },
-    { start = "\"", end = "\"", close = true, newline = false, not_in = [
-        "string",
-    ] },
-    { start = "'", end = "'", close = false, newline = false, not_in = [
-        "string",
-    ] },
-]
+path_suffixes = ["vhdl", ".vhd", ".vhdl"]
+line_comments = ["-- "]
+tab_size = 4

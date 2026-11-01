@@ -9,4 +9,4 @@ snippets = "snippets.json"
 
 [language_servers.vhdl_ls]
 name = "VHDL LS"
-language = "VHDL"
+languages = ["VHDL"]
