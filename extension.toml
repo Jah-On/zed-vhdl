@@ -1,0 +1,12 @@
+id = "vhdl"
+name = "VHDL"
+description = "VHDL support."
+version = "0.1.0"
+schema_version = 1
+authors = ["jah-on"]
+repository = "https://github.com/jah-on/zed-vhdl"
+snippets = "snippets.json"
+
+[language_servers.vhdl_ls]
+name = "VHDL LS"
+language = "VHDL"

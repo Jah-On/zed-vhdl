@@ -1,0 +1,17 @@
+[package]
+name = "zed-vhdl"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "GPLv3"
+description = "Zed extension providing VHDL highlighting and formatting support."
+repository = "https://github.com/jah-on/zed-vhdl"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+lazy_static = "1.4.0"
+regex = "1.10.4"
+zed_extension_api = "0.7.0"
